@@ -9,3 +9,5 @@ local web server at port 7797 , with root directory being ```myW3bShell\```
 # Instalation for linux
 Ok here just run 'run.sh' like this
 ```bash run.sh```
+
+if things don't work try ```chmod +x run.sh && ./run.sh```
