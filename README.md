@@ -1,2 +1,2 @@
 # myW3bShell
-Web shell for windows
+Web shell
