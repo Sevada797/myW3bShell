@@ -1,4 +1,4 @@
-![alt text]([http://url/to/img.png](https://github.com/Sevada797/myW3bShell/blob/main/Component%201.png?raw=true))
+![alt te"xt]([http://url/to/img.png](https://github.com/Sevada797/myW3bShell/blob/main/Component%201.png?raw=true))
 
 
 # myW3bShell
