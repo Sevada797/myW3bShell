@@ -1,13 +1,18 @@
 <?php 
 session_start();
 error_reporting(0);
+
+$password = "youStrongPa88word"; // Customizeable
+
+if (isset($_SESSION["status"]) && $_SESSION["status"]==="loggedin") {
+  die(header('Location: w3bshell.php'));
+}
+
 if ($_SERVER['REQUEST_METHOD']=="POST") {
-if ($_POST["pwd"]==="youStrongPa88word") {
+if ($_POST["pwd"]===$password) {
 $_SESSION["status"]="loggedin";
 }
 }
-
-
 
 ?>
 <html>
