@@ -25,3 +25,8 @@ But what am I suspecting not to work
 3) the ngrok authtoken might not work, I commented there what to do in 'windows\download.cmd'
 4) in 'linux\run.sh' line where I run  ```php -S 127.0.0.1:7797 -t ./ && ngrok http 7797``` the second command might not work, I can't explain with words why, anyways
 if it doesn't work just run this ```ngrok http 7797``` in another terminal
+
+# Upcoming feautures
+
+I plan adding IP based blocking, and also if possible ative live session, so that like if you create variable and echo in next command it will have the variable and output it,
+I am not sure if I can make the second future now but the first will becom soon, and sure blocking IP's will be customizeable.
