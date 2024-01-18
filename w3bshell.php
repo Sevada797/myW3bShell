@@ -12,7 +12,7 @@ $textColor = "green"; // Customizeable
 
 // Custom name or nickname for welcome message
 
-$name = "lieutenant";
+$name = "lieutenant"; // Customizeable
 
 ?>
 <html>
