@@ -2,7 +2,7 @@
 session_start();
 error_reporting(0);
 if ($_SERVER['REQUEST_METHOD']=="POST") {
-if ($_POST["pwd"]==="mySecr3tPa88word31415926535_isThis_F###2long") {
+if ($_POST["pwd"]==="youStrongPa88word") {
 $_SESSION["status"]="loggedin";
 }
 }
