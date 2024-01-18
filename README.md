@@ -20,6 +20,8 @@ In case of smth you can install everything manually,
 
 But what am I suspecting not to work
 
-1) .cmd files for unzipping might not work,
+1) .cmd files for unzipping might not work
 2) possible path problems may arise
-3) and the ngrok authtoken might not work, I commented there what to do in the source code of download.cmd
+3) the ngrok authtoken might not work, I commented there what to do in 'windows\download.cmd'
+4) in 'linux\run.sh' line where I run  ```php -S 127.0.0.1:7797 -t ./ && ngrok http 7797``` the second command might not work, I can't explain with words why, anyways
+if it doesn't work just run this ```ngrok http 7797``` in another terminal
