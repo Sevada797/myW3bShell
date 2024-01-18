@@ -1,6 +1,7 @@
 # myW3bShell
 This is a program to quickly run a web shell both for windows and linux operating systems,
-currently not tested on any enviroment
+full code for installing requirements is currently not tested on any enviroment,
+but the web shell's security is tested
 # Installation for Windows
 
 run download.cmd, this will install ngrok, php, and start 
