@@ -18,3 +18,5 @@ REM Start the web shell locally
 echo Starting the web shell locally
 %cd%\php\php.exe -S 127.0.0.1:7797 -t ./
 
+REM start /B mi...
+
