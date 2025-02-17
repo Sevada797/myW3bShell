@@ -33,5 +33,5 @@ if it doesn't work just run this ```ngrok http 7797``` in another terminal
 
 # Upcoming feautures
 
-I plan adding IP based blocking, and also if possible ative live session, so that like if you create variable and echo in next command it will have the variable and output it,
+I plan adding IP based blocking, and also if possible active live session, so that like if you create variable and echo in next command it will have the variable and output it,
 I am not sure if I can make the second future now but the first will becom soon, and sure blocking IP's will be customizeable.
