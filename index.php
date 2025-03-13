@@ -23,7 +23,7 @@ $_SESSION["status"]="loggedin";
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<form action="index.php" method=POST>
+<form method=POST>
 <input input type="password" name="pwd">
 <input type="submit">
 </form>
