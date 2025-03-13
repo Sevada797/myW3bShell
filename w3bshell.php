@@ -37,6 +37,7 @@ $name = "lieutenant"; // Customizeable
             margin-bottom: 10px;
             background-color: <?=$backgroundColor?>;
             border: 1px solid <?=$textColor?>;
+            color: <?=$textColor?>;
         }
 	h2 {
 	text-align: center
