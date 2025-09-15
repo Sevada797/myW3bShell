@@ -2,7 +2,7 @@
 session_start();
 error_reporting(0);
 
-$password = "youStrongPa88word"; // Customizeable
+$password = "yourStrongPa88word"; // Customizeable
 // NOTE: after typing the password correct and submitting reload the page, I will try fixing this but currently have no idea why is this happening
 // most likely asociated with headers and the placement of code that when it sets session cookie
 
